@@ -46,10 +46,10 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "わはは"
+    brand = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "サービス"
+    services = "飲み放題コース"
     portfolio = "メニュー"
     about = "About"
     team = "Team"
@@ -66,10 +66,15 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-      #url = "http://gohugo.io"
-      #name = "External link"
-      #weight = 10
+    [[menu.postpend]]
+      url = "{{ .Site.BaseURL }}#overview"
+      name = "店舗概要"
+      weight = 10
+
+    [[menu.postpend]]
+      url = "{{ .Site.BaseURL }}#location"
+      name = "アクセス"
+      weight = 11
 
 
   # Hero section
@@ -78,33 +83,33 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "ようこそ"
     subtitle = "呑み処　わはは"
-    buttonText = "more"
+    buttonText = "もっと見る"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "サービス"
-    subtitle = "サービスを紹介"
+    title = "飲み放題コース"
+    subtitle = "飲み放題コースを紹介"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-beer"
+      title = "3500円コース"
+      description = "詳細"
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-female"
+      title = "女性限定"
+      description = "女子会プラン詳細"
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-female"
+      title = "サワーコース"
+      description = "サワーコース"
       url = "#"
 
   # Portfolio section
@@ -114,8 +119,8 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "お料理紹介"
+    subtitle = "わははの料理紹介の詳細"
 
     [params.portfolio.modal]
       client = "Client"
@@ -126,7 +131,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -213,7 +218,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -240,7 +245,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
@@ -304,25 +309,25 @@ She worked at Pied Piper for years until they went belly up."""
     enable = true
     copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+    #[[params.footer.social]]
+      #icon = "fa-twitter"
+      #link = "#"
+      #title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
       link = "#"
       title = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+    #[[params.footer.social]]
+      #icon = "fa-linkedin"
+      #link = "#"
+      #title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Privacy Policy"
+      #link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    #[[params.footer.quicklinks]]
+      #text = "Terms of Use"
+      #link = "#"
