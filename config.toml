@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://pedantic-beaver-c31eca.netlify.com/"
+baseurl = "https://wahaha.netlify.com"
 languageCode = "jp"
 title = "呑み処わはは"
 theme = "hugo-agency-theme"
