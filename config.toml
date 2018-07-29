@@ -48,8 +48,8 @@ googleAnalytics = ""
   [params.navigation]
     brand = ""
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
-    services = "飲み放題コース"
+    #logo = "whh_logo_trans.png"
+    services = "宴会コース"
     portfolio = "メニュー"
     about = "About"
     team = "Team"
@@ -89,28 +89,39 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "飲み放題コース"
-    subtitle = "飲み放題コースを紹介"
+    title = "わははの宴会プラン"
+    subtitle = "宴会は大満足プラン2時間　3,500円（生ビール有りの飲み放題込み）が人気です"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-beer"
-      title = "3500円コース"
-      description = "詳細"
-      url = "#"
+      icon = "beer_glass.png"
+      title = "マスターおすすめ　大満足プラン ２時間3500円(税込み)"
+      description = "生ビール・ホッピー・サワー・焼酎・カクテルなどほとんどの種類が飲み放題。おつまみは、お刺身も入ったおまかせお料理8~９品付き。"
+      url = ""
 
     [[params.services.row.list]]
-      icon = "fa-female"
-      title = "女性限定"
-      description = "女子会プラン詳細"
-      url = "#"
+      icon = "drink_cocktail.png"
+      title = "ビールは最初の一杯で十分と言う方は　サワープラン　2時間3200円(税込み)"
+      description = "生ビールとホッピーは最初の一杯のみ　酎ハイ・梅酒・ワインなどは飲み放題。おつまみは、お刺身も入ったおまかせお料理8~９品付き。"
+      url = ""
 
     [[params.services.row.list]]
-      icon = "fa-female"
-      title = "サワーコース"
-      description = "サワーコース"
-      url = "#"
+      icon = "tea_chaba_can.png"
+      title = "焼酎割り物だけでOKという方は　お茶割プラン　2時間3000円(税込み)"
+      description = "甲類焼酎の抹茶割り・ウーロン茶割り・紅茶割り・水割りが飲み放題。おつまみは、お刺身も入ったおまかせお料理7~8品付き。"
+      url = ""
+
+    [[params.services.row.list]]
+      icon = "food_motsunabe.png"
+      title = "鍋が食べたい!と言う方には　おまかせ鍋プラン"
+      description = "生ビール・ホッピー・サワー・焼酎・カクテルなどほとんどの種類が飲み放題。おつまみは、鍋＋おまかせお料理4~5品付き。"
+      url = ""
+    [[params.services.row.list]]
+      icon = "osake_woman4_laugh.png"
+      title = "女性だけのグループ限定　女子会プラン"
+      description = "生ビール・ホッピー・サワー・焼酎・カクテルなどほとんどの種類が飲み放題。おつまみは、鍋＋おまかせお料理4~5品付き。"
+      url = ""
 
   # Portfolio section
   [params.portfolio]
@@ -120,7 +131,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "お料理紹介"
-    subtitle = "わははの料理紹介の詳細"
+    subtitle = "料理は『ザ・居酒屋メニュー』を中心にご用意させていただいております。"
 
     [params.portfolio.modal]
       client = "Client"
@@ -316,7 +327,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/%E5%91%91%E3%81%BF%E5%87%A6%E3%82%8F%E3%81%AF%E3%81%AF-802059013149297/"
       title = "Facebook"
 
     #[[params.footer.social]]
