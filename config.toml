@@ -81,9 +81,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "ようこそ"
-    subtitle = "呑み処　わはは"
-    buttonText = "もっと見る"
+    title = ""
+    subtitle = ""
+    buttonText = ""
 
 
   # Services section
