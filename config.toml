@@ -90,7 +90,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "わははの宴会プラン"
-    subtitle = "宴会は大満足プラン2時間　3,500円（生ビール有りの飲み放題込み）が人気です"
+    subtitle = "宴会は大満足プラン2時間　3,500円（生ビール有りの飲み放題込み）が人気です。"
 
     [[params.services.row]]
 

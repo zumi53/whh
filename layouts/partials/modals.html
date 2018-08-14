@@ -13,8 +13,10 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
               <h2>{{ .title  | markdownify }}</h2>
-              <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
               {{ $url := printf "img/portfolio/%s" .img }}
+              {{ if .description }}
+                <p>{{ .description | markdownify }}</p>
+              {{ end }}
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>
