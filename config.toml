@@ -137,7 +137,7 @@ googleAnalytics = ""
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "閉じる"
 
 
     # About section
