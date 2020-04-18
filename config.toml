@@ -5,7 +5,7 @@ title = "呑み処わはは"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-139849456-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -114,7 +114,7 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "food_motsunabe.png"
-      title = "鍋が食べたい!と言う方には　おまかせ鍋プラン"
+      title = "鍋が食べたい!と言う方には　おまかせ鍋プラン3500円(税込み)"
       description = "生ビール・ホッピー・サワー・焼酎・カクテルなどほとんどの種類が飲み放題。おつまみは、鍋＋おまかせお料理4~5品付き。"
       url = ""
     [[params.services.row.list]]
@@ -256,7 +256,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = false
+    enable = fa
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
